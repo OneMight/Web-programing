@@ -8,7 +8,7 @@ body{
 }
 
 p{
-   font-family: "Roboto" sans-serif;
+   font-family: Roboto sans-serif;
 }
 header{
     width: 100%;
@@ -46,6 +46,15 @@ padding-top: 0.3%;
     
 }
 
+.visit{
+    font-size: 47px;
+    margin: 0;
+   line-height: normal;
+    word-spacing: 10px;
+    padding-bottom: 1%;
+    font-family: Source sans-serif;
+}
+
 .cart{
     display: flex;
     justify-content: space-around;
@@ -69,4 +78,177 @@ padding-top: 0.3%;
     color: #3A5F56;
     margin: 12% 0;
    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    width: 100%;
+    height: auto;
+    background-color: #F4F3F0;
+    padding: 3%;
+}
+
+.present{
+    width: 84.5%;
+    justify-content: space-between;
+    padding-left: 0;
+    line-height: 23px;
+    
+
+}
+.Read_more{
+    width: 19.5%;
+    background-color: #3A5F56;
+    border: 10px solid  #3A5F56;
+    border-radius: 7px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    height: auto;
+    margin-top: 2.5%;
+    word-spacing: 7px;
+    
+}
+.present_information{
+    display:flex;
+    height: auto;
+    justify-content: center;
+    align-items:space-around;
+    flex-direction: column;
+    padding-right: 2%;
+}
+
+.self-photo{
+    padding-right: 3%;
+}
+
+.Topic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 84.8%;
+    height: auto;
+    margin-right: 3%;
+    
+}
+.topicAndCards{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 3.4%;
+    padding-right: 4%;
+}
+.Cards{
+    display: grid;
+    gap: 1.5%;
+    padding: 3% 0%;
+    grid-template-columns: repeat(3,31%);
+    grid-template-rows: repeat(3,34%);
+    justify-content: start;
+   
+}
+
+.titleforcards{
+    font-size: 24px;
+    color:#3A5F56;
+    margin: 0;
+}
+
+.TextForCards{
+  line-height: 140%;
+  letter-spacing: 1px;
+
+}
+
+.Cards div{
+    
+    display: flex;
+    text-align: left;
+    justify-content: start;
+    padding: 2% 6%;
+    flex-direction: column;
+    background-color: #F4F3F0;
+    border-radius: 15px;
+}
+
+.Cards div a{
+    font-size: 17px;
+    color:#3A5F56;
+    text-decoration:none;
+    margin-top: 8%;
+    
+}
+.imagen{
+    display: flex;
+    justify-content: end;
+    align-items:start;    
+    width: 48px;
+    height: 48px;
+    padding: 0;
+}
+
+.topicAndText{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 4.2%;
+   
+}
+
+.imagen img{
+
+    background-color: rgb(58, 95, 86, 0.1);
+    border: 10px solid rgba(74, 173, 149, 0.1);
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.store{
+    background-color: #F4F3F0;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+
+.paks{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-content: center;
+    align-items:center;
+    gap: 2%;
+    width: 75%;
+    margin-top: 3%;
+}
+
+
+.paks div{
+    
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: start;
+}
+.Preset{
+    margin-top: 3%;
+  text-decoration: none;
+    font-size: 17px;
+    color:#3A5F56;
+    text-decoration:none;
+}
+
+.container_store{
+display: flex;
+width: 100%;
+height: auto;
+justify-content: center;
+align-items:center;
+margin-top: 3.9%;
 }
