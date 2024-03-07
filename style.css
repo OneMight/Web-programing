@@ -3,7 +3,6 @@ body{
     margin: 0;
     display: flex;
     justify-content: center;
-   
     flex-direction: column;
 }
 
@@ -35,6 +34,7 @@ padding-top: 0.3%;
     width: 40.6%;
     font-size: 17px;
     letter-spacing: 0.5px;
+   
    
 }
 .GreenText{
@@ -84,11 +84,11 @@ padding-top: 0.3%;
     display: flex;
     justify-content: center;
     align-items:center;
-    
     width: 100%;
     height: auto;
     background-color: #F4F3F0;
-    padding: 3%;
+    padding: 40px 0 40px 50px;
+    
 }
 
 .present{
@@ -96,6 +96,7 @@ padding-top: 0.3%;
     justify-content: space-between;
     padding-left: 0;
     line-height: 23px;
+    margin-right: 3%;
     
 
 }
@@ -122,7 +123,8 @@ padding-top: 0.3%;
 }
 
 .self-photo{
-    padding-right: 3%;
+    padding-right: 35px;
+    padding-top: 10px;
 }
 
 .Topic{
@@ -140,15 +142,16 @@ padding-top: 0.3%;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    padding-top: 3.4%;
-    padding-right: 4%;
+    padding-top: 45px;
+    padding-right: 52px;
 }
 .Cards{
     display: grid;
-    gap: 1.5%;
-    padding: 3% 0%;
+    row-gap: 10px;
+    column-gap: 17px;
+    padding-top: 35px;
     grid-template-columns: repeat(3,31%);
-    grid-template-rows: repeat(3,34%);
+    grid-template-rows: repeat(3,35%);
     justify-content: start;
    
 }
@@ -162,15 +165,18 @@ padding-top: 0.3%;
 .TextForCards{
   line-height: 140%;
   letter-spacing: 1px;
-
+  margin-bottom: 20px;;
+  word-break: normal;
+    
 }
 
-.Cards div{
+.Cards > div{
     
     display: flex;
     text-align: left;
-    justify-content: start;
-    padding: 2% 6%;
+    justify-content: space-around;
+    padding: 29px 20px 30px 27px;
+   
     flex-direction: column;
     background-color: #F4F3F0;
     border-radius: 15px;
@@ -180,7 +186,7 @@ padding-top: 0.3%;
     font-size: 17px;
     color:#3A5F56;
     text-decoration:none;
-    margin-top: 8%;
+    margin-top: 50px;
     
 }
 .imagen{
@@ -197,7 +203,8 @@ padding-top: 0.3%;
     justify-content: space-between;
     align-items:center;
     flex-direction: column;
-    padding-top: 4.2%;
+    padding-top: 57px;
+    padding-right: 40px;
    
 }
 
@@ -214,6 +221,8 @@ padding-top: 0.3%;
     background-color: #F4F3F0;
     justify-content: space-around;
     flex-direction: column;
+    margin-top: 59px;
+    margin-right: 7px;
    
 }
 
@@ -223,23 +232,40 @@ padding-top: 0.3%;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,1fr);
     justify-content: center;
-    align-items:center;
-    gap: 2%;
-    width: 75%;
-    margin-top: 3%;
+    gap: 15px;
+    width: 83%;
+    margin-top: 45px;
+    padding-right: 40px;
 }
 
+.textforpaks {
+    padding-left: 30px;
+    padding-top: 25px;
+    margin: 0;
+}
 
-.paks div{
-    
+.title{
+    font-size: 24px;
+    color:#3A5F56;
+    line-height: 30px;
+}
+
+.text{
+    padding-bottom: 20px;
+    line-height: 130%;
+}
+
+.paks > div{
+    width: 100%;
     border-radius: 10px;
     background-color: #FFFFFF;
     text-align: start;
 }
 .Preset{
-    margin-top: 3%;
-  text-decoration: none;
-    font-size: 17px;
+    margin-top: 30px;
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 20px;
     color:#3A5F56;
     text-decoration:none;
 }
