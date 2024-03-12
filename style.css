@@ -81,6 +81,7 @@ padding-top: 0.3%;
 }
 
 .container{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -90,6 +91,36 @@ padding-top: 0.3%;
     padding: 40px 0 40px 0px;
     
     
+}
+.card{
+    padding-bottom: 141px;
+}
+
+.shadow{
+    position: absolute;
+    z-index: 1;
+}
+
+.pink{
+    bottom:0;
+    right: 0;
+}
+
+.gray{
+    bottom: 0;;
+    left: 0;
+}
+
+.green{
+    right: 0;
+    top: 0;
+}
+
+.orange{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .present{
@@ -224,7 +255,7 @@ padding-top: 0.3%;
     background-color: #F4F3F0;
     justify-content: space-around;
     flex-direction: column;
-    margin-top: 59px;
+    margin-top: 0px;
     margin-right: 7px;
     padding-bottom: 100px;
     padding-left: 50px;
@@ -281,35 +312,48 @@ padding-top: 0.3%;
 }
 
 .container_store{
-display: flex;
-width: 100%;
-height: auto;
-justify-content: center;
-align-items:center;
-margin-top: 3.9%;
-
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
 }
 
 .pred_footer{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items:center;
     width: 100%;
-    height: auto;
+    height: 50%;
     background-color:#FFFFFF;
-    padding-top: 100px;
+    padding-top: 110px;
+}
+
+.conteinerforcontact{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 49px;
+ 
 }
 
 .block_contact{
     
     display: flex;
     width: 55.5%;
-    height: 50.4%;
+   
     justify-content: space-around;
     align-items:center;
     background-color: #F4F3F0;
     border-radius:10px;
     padding: 55px 0;
+    margin-bottom: 41px;
+    
+    
 }
 
 .button_contact{
@@ -333,13 +377,12 @@ margin-top: 3.9%;
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin-top: 47px;
+    margin-top: 3px;
     background-color: #292C32;
 }
 
 footer{
  display: flex;
- 
  justify-content: space-between;
  align-items:center;
  flex-direction: column;
@@ -354,7 +397,7 @@ footer{
     background-color: #292C32;
     margin-top: 51px;
     width: 81.1%;
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
 
