@@ -183,7 +183,7 @@ padding-top: 0.3%;
     display: grid;
     row-gap: 10px;
     column-gap: 17px;
-    padding-top: 35px;
+    margin-top: 29px;
     grid-template-columns: repeat(3,31%);
     grid-template-rows: repeat(3,35%);
     justify-content: start;
@@ -201,7 +201,6 @@ padding-top: 0.3%;
   letter-spacing: 1px;
   margin-bottom: 20px;;
   word-break: normal;
-    
 }
 
 .Cards > div{
@@ -270,7 +269,7 @@ padding-top: 0.3%;
     justify-content: center;
     gap: 15px;
     width: 83%;
-    margin-top: 42px;
+    margin-top: 47px;
     padding-right: 40px;
 }
 
