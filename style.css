@@ -1,3 +1,4 @@
+
 body{
     width: 100%;
     margin: 0;
@@ -26,12 +27,13 @@ padding-top: 0.3%;
 }
 
 .param{
+    position: relative;
     width: 80%;
     height: 71.4%;
 }
 
 .nav_menu{
-    width: 40.6%;
+    width: 400px;
     font-size: 17px;
     letter-spacing: 0.5px;
    
@@ -85,12 +87,11 @@ padding-top: 0.3%;
     display: flex;
     justify-content: center;
     align-items:center;
+    
     width: 100%;
     height: auto;
     background-color: #F4F3F0;
     padding: 40px 0 40px 0px;
-    
-    
 }
 .card{
     padding-bottom: 141px;
@@ -120,7 +121,7 @@ padding-top: 0.3%;
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 1;
+    z-index: -1;
 }
 
 .present{
@@ -184,9 +185,10 @@ padding-top: 0.3%;
     row-gap: 10px;
     column-gap: 17px;
     margin-top: 29px;
-    grid-template-columns: repeat(3,31%);
-    grid-template-rows: repeat(3,35%);
-    justify-content: start;
+    grid-template-columns: repeat(auto-fill,31%);
+    grid-template-rows: repeat(auto-fill,35%);
+    justify-items: stretch;
+
    
 }
 
@@ -267,6 +269,7 @@ padding-top: 0.3%;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,1fr);
     justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
     width: 83%;
     margin-top: 47px;
@@ -404,6 +407,7 @@ footer{
     width: 100%;
     justify-content: space-between;
     margin-top: 65px;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -531,8 +535,407 @@ input[type="submit"]:hover{
 }
 
 .NameofCorporation p{
-color:#F4F3F0;
-margin: 0;
-word-spacing: 3px;
+    color:#F4F3F0;
+    margin: 0;
+    word-spacing: 3px;
 
+}
+.burger{
+    visibility: hidden;
+    position: absolute;
+    right: 2;
+    top: 2;
+}
+
+.burger-menu{
+    visibility: hidden;
+    width: 320px;
+    position: absolute;
+    top: 40;
+}
+
+.cart:hover {
+    background-color: aliceblue;
+    transition: 1ms; 
+    color:#000000;
+    cursor: pointer;
+
+}
+
+@media (min-width:770px) and (max-width: 1200px){
+
+    .present_information{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        align-items:center;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .present_information > p{
+        text-align: center;
+    }
+
+    .self-photo{
+        margin-top: 20px;
+        padding: 0;
+    }
+    .paks{
+        
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(2,0.5fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .paks > div{
+        width: 379px;
+    }
+
+    .Cards{
+        justify-content: center;
+        grid-template-columns: repeat(2,0.4fr);
+        grid-template-rows: repeat(4,1fr);
+        }
+    
+        .card{
+            
+            padding-bottom: 35px;
+        }
+        .block_contact{
+            width: 90%;
+           }
+        
+           .information{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+           }
+           .FooterTextTitle{
+            width: 350px;
+           }
+           .textupperinput{
+            width: 350px;
+           }
+           .inputemail{
+            width: 300px;
+           }
+           input[type="input"]{
+            width: 65%;
+           }
+           input[type="submit"]{
+            width: 20%;
+           }
+           .corporation{
+            width: 768px;
+            padding: 0 0 15px 0;
+           }
+           .NameofCorporation{
+            width: 65%;
+           }
+        .SocialMedia{
+            margin-right: 20px;
+            width: 20%;
+        
+        }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 768px;
+    }
+    .present_information{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        align-items:center;
+    }
+    .present_information > p{
+        text-align: center;
+    }
+
+    .self-photo{
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .present{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .container{
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 40px 0 0 0;
+    }
+
+    .topicAndCards{
+        justify-content: center;
+        align-items:center;
+        padding: 20px 0 0 0;
+    }
+
+    .Topic{
+        margin: 0 auto;
+    }
+
+    .container_store{
+        margin: 0;
+    
+    }
+
+    .Cards{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    }
+
+    .card{
+        padding-bottom: 35px;
+    }
+
+    .paks{
+        grid-template-columns: repeat(1,0.5fr);
+        grid-template-rows: repeat(3,1fr);
+        padding-right: 0;
+    }
+
+    .Preset{
+        margin: 20px auto;
+    }
+
+    .topicAndText{
+        padding-right: 0;
+    }
+  
+    .block_contact{
+        width: 90%;
+       }
+    
+       .information{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+       }
+       .FooterTextTitle{
+        width: 350px;
+       }
+       .textupperinput{
+        width: 350px;
+       }
+       .inputemail{
+        width: 300px;
+       }
+       input[type="input"]{
+        width: 65%;
+       }
+       input[type="submit"]{
+        width: 20%;
+       }
+       .corporation{
+        width: 768px;
+        padding: 0 0 15px 0;
+       }
+       .NameofCorporation{
+        width: 65%;
+       }
+    .SocialMedia{
+        margin-right: 20px;
+        width: 20%;
+    
+    }
+   
+}
+
+@media screen and (max-width: 320px) {
+    body{
+        width: 320px;
+    }
+    .green{
+        visibility: hidden;
+    }
+    .orange{
+        visibility: hidden;
+    }
+    .visit{
+        font-size: 30px;
+        width: 320px;
+    }
+    .nav_menu{
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .param{
+        width: 320px;
+        padding: 15px 20px;
+    }
+
+    .burger{
+        position: absolute;
+        right: 0;
+        top: 0;
+        visibility: visible;
+    }
+    .present_information{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        align-items:center;
+    }
+
+    
+    
+    .present_information > p{
+    
+        width: 300px;
+    }
+
+    .self-photo{
+        margin-top: 20px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .self-photo img{
+        width: 100%;
+    }
+
+    .topicAndCards{
+        justify-content: center;
+        align-items:center;
+        padding: 20px 0 0 0;
+    }
+
+    .Topic{
+        margin: 0 auto;
+    }
+
+    .container_store{
+        margin: 0;
+    
+    }
+
+    .Read_more{
+        margin-top: 30px;
+        width: 100px;
+    }
+
+    .Cards{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(7,1fr);
+    }
+
+    .Cards > div{
+        width: 280px;
+    }
+
+    .card{
+        padding-bottom: 35px;
+    }
+
+    .paks{
+        grid-template-columns: repeat(1,1.5fr);
+        grid-template-rows: repeat(3,1fr);
+        padding-right: 0;
+    }
+
+    .paks > div{
+        width: 100%;
+    }
+    .paks > div >img{
+        width: 96%;
+    }
+
+    .title{
+        width: 320px;
+    }
+    .Preset{
+        margin: 20px auto;
+    }
+
+    .topicAndText{
+        padding-right: 0;
+    }
+  
+   .block_contact{
+    width: 95%;
+    flex-direction: column;
+    }
+
+    .block_contact > p{
+        text-align: center;
+    }
+
+    .button_contact{
+        margin: 0 auto;
+    }
+
+    .Contact{
+        width: 320px;
+    }
+
+    .links > div{
+        align-items:center;
+        text-align: center;
+    }
+
+    .containerinput{
+        width: 320px;
+        align-items:center;
+        text-align: center;
+    }
+
+    .FooterTextTitlecategories{
+        width: 300px;
+    }
+   .information{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-content: center;
+    align-items:center;
+   }
+   .FooterTextTitle{
+    width: 300px;
+   }
+   .textupperinput{
+    width: 300px;
+   }
+   .inputemail{
+    width: 300px;
+   
+   }
+   input[type="input"]{
+    width: 60%;
+   }
+   input[type="submit"]{
+    width: 25%;
+   }
+   .corporation{
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    width: 320px;
+    
+   }
+   .NameofCorporation{
+    display: flex;
+    text-align:center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    }    
+    .SocialMedia{
+    margin: 0 auto;
+    width: 150px;
+    }   
+    .burger:hover .burger-menu::after{
+        visibility: visible;
+    }
 }
