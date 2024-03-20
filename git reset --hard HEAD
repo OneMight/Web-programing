@@ -1,0 +1,128 @@
+[33mcommit 766b398f7090e86c628652c4e1570725b74eb1c1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a79dcdc 432ac35
+Author: OneMight <126070385+OneMight@users.noreply.github.com>
+Date:   Wed Mar 20 22:38:27 2024 +0300
+
+    Merge pull request landing
+    
+    Adaptive site and some inamation
+
+[33mcommit 432ac357e04093c2b03fda3fe8d9d3184d06c8e6[m[33m ([m[1;31morigin/landing[m[33m, [m[1;32mlanding[m[33m)[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Wed Mar 20 22:36:25 2024 +0300
+
+    feat: add animation for grid
+
+[33mcommit 283a2e06a8b96e1cb49f1b0917685128ac378e9b[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Wed Mar 20 11:32:32 2024 +0300
+
+    feat: add adaptive zone for site
+
+[33mcommit 2029c2fb796a3f1f7b6522f2060f5e47c25fd208[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Wed Mar 13 10:53:40 2024 +0300
+
+    fix: correct paddings and margins
+
+[33mcommit 7bd21695f3fce0e6a6ebad507b13e2607689497b[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Wed Mar 13 10:33:49 2024 +0300
+
+    fix: correct margin
+
+[33mcommit 3650ba6aff5621ed19e64f7c26ab2ea92dcbc226[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Wed Mar 13 10:33:08 2024 +0300
+
+    feat: add new imagen
+
+[33mcommit d0473bf33c5ed2f9ee72372863c9fbe81562c4dd[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Tue Mar 12 22:05:35 2024 +0300
+
+    feat: add styles for shadow boxes
+
+[33mcommit 2ef1f44666d5d1b56cdb108cd8cf236268396275[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Tue Mar 12 22:00:28 2024 +0300
+
+    feat: add images for shadow
+
+[33mcommit f2e3cc873ca5d49f0edd89d6a94cda3cf0aaab41[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Tue Mar 12 22:00:01 2024 +0300
+
+    feat: add shadow boxes
+
+[33mcommit bed545be83e25664573b966308416f22f90faecd[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Sun Mar 10 15:33:53 2024 +0300
+
+    feat: add new stules for two footer container
+
+[33mcommit ac1541b79d4049b4fc4482aa9de4eb503b8b1723[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Sun Mar 10 15:33:14 2024 +0300
+
+    feat: add two footer container
+
+[33mcommit 07801608b3c32f1a8f491aeb7d19576da659d0a6[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Sun Mar 10 15:32:08 2024 +0300
+
+    feat: add footer images
+
+[33mcommit 15a99a90234d6387c9e9c9aca3cd74ef3ae01116[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Fri Mar 8 01:32:22 2024 +0300
+
+    fix: there was a correction of styles to match the layout
+
+[33mcommit 0fce09ff62e0af494d31af2b44694b8911fae8eb[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Fri Mar 8 01:29:58 2024 +0300
+
+    feat: change some class name
+
+[33mcommit 9ac4f127c7e395e567ba6e8f7995a7ac9f427a25[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Mon Mar 4 19:52:50 2024 +0300
+
+    feat: add 2 blocks(Cards and Store)
+
+[33mcommit 53a6fd1ca3774af171731ae7fb1da279ad4e93d7[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Mon Mar 4 19:51:10 2024 +0300
+
+    feat: add new styles
+
+[33mcommit 11031d2b8e6eeb61ddc27cd056ebbc92892555ad[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Sat Mar 2 11:04:23 2024 +0300
+
+    feat: add all images of the project to folder images
+
+[33mcommit e2e8382ba16fd506ee940b4aa865624aacfc1209[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Sat Mar 2 11:02:48 2024 +0300
+
+    feat: add styles for header
+
+[33mcommit 281c7873e1a7731bd64440c987a2058dc3953393[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Sat Mar 2 10:59:34 2024 +0300
+
+    feat: add header
+
+[33mcommit eeaa1a6f4001e693758085316dcd7c4b769b9c23[m
+Author: OneMight <dimamirankov63@gmail.com>
+Date:   Wed Feb 28 12:00:18 2024 +0300
+
+    feat: create files .html and .css
+
+[33mcommit a79dcdc702877a42bec4532ae14a2f751c54d52a[m
+Author: OneMight <126070385+OneMight@users.noreply.github.com>
+Date:   Wed Feb 28 10:25:25 2024 +0300
+
+    Initial commit
